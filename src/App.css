@@ -11,5 +11,6 @@ body{
   width: 100vw;
   background-color: rgb(13, 13, 13);
   overflow: hidden;
+  overflow: auto;
   color: white;
 }

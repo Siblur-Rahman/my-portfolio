@@ -1,0 +1,32 @@
+.heroSection{
+    display: flex;
+    padding-top: 5rem;
+    height: 40rem;
+    background-color: rgb(13, 13, 13);
+    width: 100vw;
+    overflow: auto;
+}
+.heroSection h1{
+    font-size: 1.8rem;
+}
+.heroSection h1 span{
+    color: aqua;
+}
+.left{
+    background-color: rgb(13, 13, 13);
+    width: 50vw;
+    padding-top: 15rem;
+    padding-left: 10rem;
+}
+.stack{
+    font-size: 1.8rem;
+}
+.right{
+    /* background-color: rgb(223, 168, 19); */
+    width: 50vw;
+}
+.myImage{
+    height: 30rem;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}

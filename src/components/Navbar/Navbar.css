@@ -20,6 +20,7 @@
 .list:hover{
     padding-bottom: 0.55rem;
     border-bottom: 4px solid rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
 }
 .btn{
     height: 2rem;
