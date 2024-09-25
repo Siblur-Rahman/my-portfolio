@@ -14,3 +14,11 @@ body{
   overflow: auto;
   color: white;
 }
+.headingSection{
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.headingSection :hover{
+  color: rgb(0, 255, 255);
+}

@@ -1,0 +1,31 @@
+.skillsSection{
+    height: 25rem;
+    width: 100vw;
+    text-align: center;
+}
+.mySkills{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.skill{
+    height: 10rem;
+    width: 13vw;
+    border-radius: 50%;
+    background-color: rgb(224, 209, 209);
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+.react{
+    color: #01d1f7;
+}
+.html{
+    color: black;
+}
+.css{
+    color: #01d1f7;
+}
+.js{
+    color: blue;
+}
