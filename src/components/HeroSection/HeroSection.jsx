@@ -2,7 +2,7 @@ import "./HeroSection.css"
 import image from "../../assets/developer_siblu.png"
 const HeroSection = () => {
     return (
-        <div className="md:flex pt-20 md:h-[640px]">
+        <div className="md:flex pt-20 md:h-[640px] mb-10">
             <div className="md:w-1/2 px-5 md:pt-40">
                 <div className="">
                     <div className="">
@@ -20,7 +20,7 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className="md:w-1/2">
-                    <img src={image} alt="" className="w-3/4 m-auto" />
+                    <img src={image} alt="" className="w-3/4 m-auto pb-8" />
             </div>
         </div>
     );
