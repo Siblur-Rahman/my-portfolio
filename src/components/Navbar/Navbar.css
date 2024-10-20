@@ -23,32 +23,24 @@
     border-bottom: 4px solid rgb(0, 255, 255);
     color: rgb(0, 255, 255);
 }
-.btn{
+.navBtn{
     height: 2rem;
     width: 10vw;
     border: none;
+    background: white;
     color: black;
     font-weight: 700;
     border-radius: 6rem;
+    padding: 4px 10px;
 }
-.btn:hover{
+.navBtn:hover{
+    background-color: rgb(0, 255, 255);
+}
+.btnActive{
     background-color: rgb(0, 255, 255);
 }
 .active{
     padding-bottom: 0.55rem;
     border-bottom: 4px solid rgb(0, 255, 255);
     color: rgb(0, 255, 255);
-  }
-
-  @media only screen and (min-width: 768px) and (max-width:1024px) and (orientation: landscape){
-    .logo h1{
-        font-size: 1.8rem;
-        color: brown;
-    }
-    .list{
-        font-size: 0.9rem;
-    }
-    .btn{
-        width: 15vw;
-    }
   }

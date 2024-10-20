@@ -4,9 +4,9 @@ import Project from './Project';
 
 const Projects = () => {
     return (
-        <div className="projectsSection py-10 bg-red-600">
+        <div className="projectsSection py-10">
             <Heading Heading={'My Projects'}/>
-            <div className="md:flex w-full md:justify-evenly mt-20 sm:m-auto">
+            <div className="lg:flex w-full md:justify-evenly mt-20 sm:m-auto">
                 <Project project={'Blogs Web Site'}/>
                 <Project project={'Tourism Management'}/>
                 <Project project={'ContestHUB'}/>

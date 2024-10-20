@@ -8,7 +8,7 @@ const Skills = () => {
 
             <Heading Heading={'My Skills'}/>
 
-           <div className="mt-20 grid md:grid-cols-4 sm:grid-cols-2 md:gap-5 justify-items-center">
+           <div className="mt-20 grid lg:grid-cols-4 grid-cols-2 lg:gap-5 justify-items-center">
                         
                                 <SkilsItem skil={<FaReact className='text-[80px] text-[#01d1f7]'/>}/>
 
