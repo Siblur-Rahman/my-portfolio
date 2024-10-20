@@ -1,10 +1,9 @@
+import Heading from "../Heading/Heading";
 
 const About = () => {
     return (
             <div className="aboutSection border-2 pt-10 w-full">
-                <div className="text-center">
-                    <h2 className='text-3xl hover:text-[aqua] font-bold'>About Me</h2>
-                </div>
+                <Heading Heading={'About Me'}/>
                 <div className='text-center'>
                     <div className="w-[600px] m-auto">
                     <h2 className='text-gray-400 text-2xl hover:text-white'>Fontend Web Developer</h2>

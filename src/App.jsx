@@ -4,6 +4,7 @@ import About from './components/About/About'
 import HeroSection from './components/HeroSection/HeroSection'
 import Navbar from './components/Navbar/Navbar'
 import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -13,9 +14,10 @@ function App() {
      <HeroSection/>
      <About/>
      <Skills/>
+     <Projects/>
      {/* 
      
-     <Projects/>
+     
      <Contact/> */}
     </>
   )
