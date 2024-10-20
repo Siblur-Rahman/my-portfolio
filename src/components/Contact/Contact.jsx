@@ -4,7 +4,7 @@ import Heading from '../Heading/Heading'
 
 const Contact = () => {
     return (
-        <div className='contactSection'>
+        <div className='contactSection bg-black'>
             <Heading Heading={'Contact Me'}/>
             <div className="contactDescription">
                 <h3>Please fill out form below to descuss any opportunities</h3>

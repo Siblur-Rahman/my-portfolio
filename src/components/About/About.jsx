@@ -2,14 +2,16 @@ import Heading from "../Heading/Heading";
 
 const About = () => {
     return (
-            <div className="aboutSection border-2 pt-10 w-full">
+            <div className="aboutSection pt-10 w-full bg-black">
                 <Heading Heading={'About Me'}/>
-                <div className='text-center'>
+                <div className='text-justify'>
                     <div className="w-[600px] m-auto">
                     <h2 className='text-gray-400 text-2xl hover:text-white'>Fontend Web Developer</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere autem quibusdam ab natus asperiores, consectetur aut vitae tempora nulla molestias, officia adipisci distinctio eos in perferendis amet cumque dignissimos explicabo!
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maiores et error fugit fuga! Magni earum provident, quos, praesentium nihil debitis consequuntur beatae, eligendi necessitatibus delectus nostrum modi pariatur ipsam!
-                    <button>Download CV</button>
+                    I'm a passionate junior web developer with a solid foundation in front-end and back-end technologies. I specialize in crafting responsive, user-friendly websites using HTML, CSS, and JavaScript, along with modern frameworks like React. I’m continuously learning new technologies and enhancing my skills in areas like Node.js, Express, and MongoDB for full-stack development.
+                    <br /><br />
+                    With a focus on clean code, problem-solving, and improving user experiences, I’m excited to work on collaborative projects that bring ideas to life through the web. I’m always eager to take on new challenges and grow as a developer.
+                    <br />
+                    <button className="my-5 bg-[black] border-2 border-white rounded-lg p-2 hover:text-[aqua]"><a href="https://drive.google.com/drive/folders/11IhhyZTCsmLfEoD6ReV2t-sIkSqOlzIq?usp=drive_link" target="_blank">Download Resume</a></button>
                     </div>
                 </div>
                 <div className="md:flex justify-between px-10 py-5">

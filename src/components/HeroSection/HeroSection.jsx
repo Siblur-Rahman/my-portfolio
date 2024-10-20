@@ -1,7 +1,7 @@
 import image from "../../assets/developer_siblu.png"
 const HeroSection = () => {
     return (
-        <div className="heroSection md:flex pt-20">
+        <div className="heroSection md:flex pt-20 bg-black">
             <div className="md:w-1/2 px-5 md:pt-40">
                 <div className="">
                     <div className="">
@@ -12,9 +12,10 @@ const HeroSection = () => {
                     </div>
                     <div className="">
                         <h1 className="text-2xl">Fontent Developer</h1>
+                        <p>Building responsive and modern web experiences.</p>
                     </div>
                     <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi inventore, eius praesentium dolore est optio nostrum rerum fugiat quasi placeat nulla ab veniam tempora, id minima at voluptatum nam deserunt.</p>
+                        <p>I specialize in creating dynamic, user-friendly websites using the latest web technologies. Whether it's front-end design or back-end development, I love bringing ideas to life through clean, efficient code. Let’s build something great together!.</p>
                     </div>
                 </div>
             </div>
