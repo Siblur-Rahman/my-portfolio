@@ -2,6 +2,7 @@ import './Contact.css'
 import Heading from '../Heading/Heading'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
     const form = useRef();
@@ -10,7 +11,7 @@ const Contact = () => {
       e.preventDefault();
   
       emailjs
-        .sendForm('service_73cr4ni', 'template_wcx9qp9', form.current, {
+        .sendForm('service_73cr4ni', 'template_pcjo209', form.current, {
           publicKey: 'v4N3bjVhLDJkW2SBz',
         })
         .then(
