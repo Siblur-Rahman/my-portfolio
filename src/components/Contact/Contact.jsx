@@ -2,7 +2,8 @@ import './Contact.css'
 import Heading from '../Heading/Heading'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { useNavigate } from 'react-router-dom';
+import { toast } from 'sonner';
+
 
 const Contact = () => {
     const form = useRef();
@@ -15,11 +16,15 @@ const Contact = () => {
           publicKey: 'v4N3bjVhLDJkW2SBz',
         })
         .then(
-          () => {
-            console.log('SUCCESS!');
+          (e) => {
+            if(e.status === 200){
+            toast('Message send Successfuly')
+            };
           },
           (error) => {
-            console.log('FAILED...', error.text);
+            if(error.status === 400){
+              toast('Message send Faild')
+              };
           },
         );
     };
@@ -30,10 +35,10 @@ const Contact = () => {
                 <h3>Please fill out form below to descuss any opportunities</h3>
             </div>
             <form action="" className='form' ref={form} onSubmit={sendEmail}>
-                <input placeholder="Your Name" name="user_name" className='inputName input' rows="5" cols="50"/>
+                <input placeholder="Your Name" required name="user_name" className='inputName input' rows="5" cols="50"/>
                 <br />
-                <input placeholder="Your Email" name="user_email" className='input' type='email'/>
-                <textarea placeholder='Your Message' name="message" className='textarea'/>
+                <input placeholder="Your Email" required name="user_email" className='input' type='email'/>
+                <textarea placeholder='Your Message' required name="message" className='textarea'/>
                 <div className='submit'>
                     <button type='submit' className='submitBtn'>Submit</button>
                 </div>
